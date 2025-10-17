@@ -20,7 +20,6 @@ def main():
         page = st.radio(
             "Selecciona una página:", 
             [
-                "Introducción", 
                 "Operación con Matriz", 
                 "Operaciones con Matrices",
                 "Sistema de Ecuaciones"
@@ -28,9 +27,7 @@ def main():
         )
     
     # Navegación entre páginas
-    if page == "Introducción":
-        mostrar_introduccion()
-    elif page == "Operación con Matriz":
+    if page == "Operación con Matriz":
         operacion_una_matriz()
     elif page == "Operaciones con Matrices":
         operacion_dos_matrices()
